@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui2
     spec:
       containers:
-      - image: hub.iflytek.com/medical/centos-tomcat:8.5.40
+      - image: hub.iflytek.com/medical/centos-tomcat:8.5.401
         name: guestbook-ui2
         ports:
         - containerPort: 80
